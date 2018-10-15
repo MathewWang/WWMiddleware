@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFC34FDD21706EF800431EF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC34FDC21706EF800431EF8 /* main.m */; };
+		AFC34FF72174452600431EF8 /* ORCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC34FF32174452600431EF8 /* ORCompose.m */; };
+		AFC34FF82174452600431EF8 /* ORMiddleWare.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC34FF42174452600431EF8 /* ORMiddleWare.m */; };
+		AFC34FFB2174453B00431EF8 /* FirstFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC34FFA2174453B00431EF8 /* FirstFilter.m */; };
+		AFC34FFE2174454E00431EF8 /* SecondFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC34FFD2174454E00431EF8 /* SecondFilter.m */; };
+		AFC350012174456700431EF8 /* ThirdFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC350002174456700431EF8 /* ThirdFilter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFC34FD721706EF800431EF8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFC34FD921706EF800431EF8 /* ORMiddleWare */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ORMiddleWare; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC34FDC21706EF800431EF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFC34FF32174452600431EF8 /* ORCompose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORCompose.m; sourceTree = "<group>"; };
+		AFC34FF42174452600431EF8 /* ORMiddleWare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORMiddleWare.m; sourceTree = "<group>"; };
+		AFC34FF52174452600431EF8 /* ORMiddleWare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORMiddleWare.h; sourceTree = "<group>"; };
+		AFC34FF62174452600431EF8 /* ORCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORCompose.h; sourceTree = "<group>"; };
+		AFC34FF92174453B00431EF8 /* FirstFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstFilter.h; sourceTree = "<group>"; };
+		AFC34FFA2174453B00431EF8 /* FirstFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstFilter.m; sourceTree = "<group>"; };
+		AFC34FFC2174454E00431EF8 /* SecondFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondFilter.h; sourceTree = "<group>"; };
+		AFC34FFD2174454E00431EF8 /* SecondFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondFilter.m; sourceTree = "<group>"; };
+		AFC34FFF2174456700431EF8 /* ThirdFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdFilter.h; sourceTree = "<group>"; };
+		AFC350002174456700431EF8 /* ThirdFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdFilter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC34FD621706EF800431EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFC34FD021706EF800431EF8 = {
+			isa = PBXGroup;
+			children = (
+				AFC34FDB21706EF800431EF8 /* ORMiddleWare */,
+				AFC34FDA21706EF800431EF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC34FDA21706EF800431EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC34FD921706EF800431EF8 /* ORMiddleWare */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC34FDB21706EF800431EF8 /* ORMiddleWare */ = {
+			isa = PBXGroup;
+			children = (
+				AFC34FF22174452600431EF8 /* Base */,
+				AFC34FDC21706EF800431EF8 /* main.m */,
+				AFC34FF92174453B00431EF8 /* FirstFilter.h */,
+				AFC34FFA2174453B00431EF8 /* FirstFilter.m */,
+				AFC34FFC2174454E00431EF8 /* SecondFilter.h */,
+				AFC34FFD2174454E00431EF8 /* SecondFilter.m */,
+				AFC34FFF2174456700431EF8 /* ThirdFilter.h */,
+				AFC350002174456700431EF8 /* ThirdFilter.m */,
+			);
+			path = ORMiddleWare;
+			sourceTree = "<group>";
+		};
+		AFC34FF22174452600431EF8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AFC34FF62174452600431EF8 /* ORCompose.h */,
+				AFC34FF32174452600431EF8 /* ORCompose.m */,
+				AFC34FF52174452600431EF8 /* ORMiddleWare.h */,
+				AFC34FF42174452600431EF8 /* ORMiddleWare.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC34FD821706EF800431EF8 /* ORMiddleWare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC34FE021706EF800431EF8 /* Build configuration list for PBXNativeTarget "ORMiddleWare" */;
+			buildPhases = (
+				AFC34FD521706EF800431EF8 /* Sources */,
+				AFC34FD621706EF800431EF8 /* Frameworks */,
+				AFC34FD721706EF800431EF8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ORMiddleWare;
+			productName = ORMiddleWare;
+			productReference = AFC34FD921706EF800431EF8 /* ORMiddleWare */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC34FD121706EF800431EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = oriente;
+				TargetAttributes = {
+					AFC34FD821706EF800431EF8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AFC34FD421706EF800431EF8 /* Build configuration list for PBXProject "ORMiddleWare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFC34FD021706EF800431EF8;
+			productRefGroup = AFC34FDA21706EF800431EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC34FD821706EF800431EF8 /* ORMiddleWare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC34FD521706EF800431EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC34FDD21706EF800431EF8 /* main.m in Sources */,
+				AFC34FF82174452600431EF8 /* ORMiddleWare.m in Sources */,
+				AFC34FFE2174454E00431EF8 /* SecondFilter.m in Sources */,
+				AFC34FFB2174453B00431EF8 /* FirstFilter.m in Sources */,
+				AFC34FF72174452600431EF8 /* ORCompose.m in Sources */,
+				AFC350012174456700431EF8 /* ThirdFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFC34FDE21706EF800431EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFC34FDF21706EF800431EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFC34FE121706EF800431EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79RZCTCS9P;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFC34FE221706EF800431EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79RZCTCS9P;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC34FD421706EF800431EF8 /* Build configuration list for PBXProject "ORMiddleWare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC34FDE21706EF800431EF8 /* Debug */,
+				AFC34FDF21706EF800431EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC34FE021706EF800431EF8 /* Build configuration list for PBXNativeTarget "ORMiddleWare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC34FE121706EF800431EF8 /* Debug */,
+				AFC34FE221706EF800431EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC34FD121706EF800431EF8 /* Project object */;
+}
